@@ -6,7 +6,7 @@ interface InputFieldProps {
   errors: FieldErrors;
 }
 
-const InputField: React.FC<InputFieldProps & TextFieldProps> = ({
+const FormField: React.FC<InputFieldProps & TextFieldProps> = ({
   label,
   name,
   errors,
@@ -25,4 +25,4 @@ const InputField: React.FC<InputFieldProps & TextFieldProps> = ({
   );
 };
 
-export default InputField;
+export default FormField;
